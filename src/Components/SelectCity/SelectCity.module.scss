@@ -1,0 +1,19 @@
+.inputFld {
+	color: #555;
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+	outline: none;
+	height: 2em;
+	width: 370px;
+	border: 1px solid #d8d8d8;
+	padding: 0 7px;
+
+	& ::webkit-calendar-picker-indicator {
+		display: none;
+	}
+}
+
+.field {
+	margin-bottom: 10px;
+	padding: 0;
+}

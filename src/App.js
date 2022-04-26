@@ -1,11 +1,13 @@
-import './App.css';
+import React from 'react';
+
+import SelectCity from './Components/SelectCity/SelectCity';
+
+import './App.scss';
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<h1>Test</h1>
-			</header>
+			<SelectCity />
 		</div>
 	);
 }
