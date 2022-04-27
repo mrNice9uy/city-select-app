@@ -1,0 +1,20 @@
+/* color vars */
+
+$clr-primary: #18ffff;
+$clr-primary-light: #adffff;
+$clr-primary-dark: #091034;
+$clr-gray: #e1e5ee;
+$clr-bg: #060b23;
+$clr-label: #ffffff;
+
+/* border radius */
+
+$radius: 0.5rem;
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}

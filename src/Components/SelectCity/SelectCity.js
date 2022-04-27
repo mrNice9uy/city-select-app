@@ -18,22 +18,23 @@ const SelectCity = () => {
 
 	return (
 		<>
-			<h1>Поиск населенного пункта</h1>
-			<form>
-				<div className={classes.field}>
-					<input
-						className={classes.inputFld}
-						name="city"
-						type="text"
-						defaultValue=""
-						placeholder="Город"
-						list="city"
-						autoComplete="off"
-						onChange={e => getCity(e.target.value)}
-					/>
-					<OptionsList options={options} />
-				</div>
-			</form>
+			<div className={classes.form}>
+				<input
+					className={classes.formInput}
+					id="Город"
+					name="city"
+					type="text"
+					defaultValue=""
+					placeholder=" "
+					list="city"
+					autoComplete="off"
+					onChange={e => getCity(e.target.value)}
+				/>
+				<label htmlFor="Город" className={classes.formLabel}>
+					Город
+				</label>
+			</div>
+			<OptionsList options={options} />
 		</>
 	);
 };
