@@ -18,6 +18,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
+		"test-utils": "jest",
 		"eject": "react-scripts eject",
 		"prettier:check": "prettier --check ./src",
 		"prettier:write": "prettier --write ./src"
